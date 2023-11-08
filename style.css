@@ -2,3 +2,66 @@ body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
 }
+
+h2 {
+  color: #F50157;
+}
+
+/* Banner */
+.banner {
+  background-image: url('images/background.jpg');
+  background-size: cover;
+  color: #fff;
+  padding: 200px 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 60px;
+  margin: 0;
+}
+
+.banner-p {
+  margin-bottom: 40px;
+}
+
+#btn-blue {
+  text-decoration: none;
+  background-color: rgb(1, 175, 175);
+  font-weight: bold;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+
+/* Cards */
+.cards {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.card {
+  width: 300px;
+  border: 1px solid lightgrey;
+  text-align: center;
+  margin: 0 40px;
+  padding: 20px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+.card-p {
+  color: gray;
+}
+
+/* Footer */
+.footer {
+  background-color: rgb(47, 47, 47);
+  color: #fff;
+  padding: 40px 0;
+  text-align: center;
+}
